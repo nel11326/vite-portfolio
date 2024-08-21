@@ -5,6 +5,13 @@ import { getImageUrl } from "../../img";
 
 function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("#");
+
+  const handleLinkClick = (link) => {
+    setActiveLink(link);
+    setMenuOpen(false);
+  };
+
   return (
     <nav className={styles.navbar}>
       <a href="/" className={styles.title}>
@@ -27,16 +34,40 @@ function NavBar() {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a
+              href="#about"
+              className={activeLink === "#about" ? styles.active : ""}
+              onClick={() => handleLinkClick("#about")}
+            >
+              About
+            </a>
           </li>
           <li>
-            <a href="#experience">Experience</a>
+            <a
+              href="#experience"
+              className={activeLink === "#experience" ? styles.active : ""}
+              onClick={() => handleLinkClick("#experience")}
+            >
+              Experience
+            </a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a
+              href="#projects"
+              className={activeLink === "#projects" ? styles.active : ""}
+              onClick={() => handleLinkClick("#projects")}
+            >
+              Projects
+            </a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a
+              href="#contact"
+              className={activeLink === "#contact" ? styles.active : ""}
+              onClick={() => handleLinkClick("#contact")}
+            >
+              Contact
+            </a>
           </li>
         </ul>
       </div>
