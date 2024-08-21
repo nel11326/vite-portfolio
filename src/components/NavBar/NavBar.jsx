@@ -15,7 +15,7 @@ function NavBar() {
   return (
     <nav className={styles.navbar}>
       <a href="/" className={styles.title}>
-        nel.dev
+        Nel.dev
       </a>
       <div className={styles.menu}>
         <img
@@ -35,6 +35,15 @@ function NavBar() {
         >
           <li>
             <a
+              href="#home"
+              className={activeLink === "#home" ? styles.active : ""}
+              onClick={() => handleLinkClick("#home")}
+            >
+              Home
+            </a>
+          </li>
+          <li>
+            <a
               href="#about"
               className={activeLink === "#about" ? styles.active : ""}
               onClick={() => handleLinkClick("#about")}
@@ -42,15 +51,7 @@ function NavBar() {
               About
             </a>
           </li>
-          <li>
-            <a
-              href="#experience"
-              className={activeLink === "#experience" ? styles.active : ""}
-              onClick={() => handleLinkClick("#experience")}
-            >
-              Experience
-            </a>
-          </li>
+
           <li>
             <a
               href="#projects"

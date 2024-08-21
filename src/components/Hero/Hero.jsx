@@ -6,7 +6,7 @@ import TechStack from "./techStack";
 function Hero() {
   return (
     <div>
-      <section className={styles.container}>
+      <section className={styles.container} id="home">
         <div className={styles.content}>
           <h1 className={styles.title}>
             Full Stack Web Developer{" "}
