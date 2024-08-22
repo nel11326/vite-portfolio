@@ -12,33 +12,48 @@ export const ProjectCard = ({
 }) => {
   return (
     <div className={styles.container}>
-      <div>
+      <div className={styles.imageContainer}>
         <img
           src={getImageUrl(imageSrc)}
           alt={`Image of ${title}`}
           className={styles.image}
         />
       </div>
-      <div>
-        <h3 className={styles.title}>{title}</h3>
-        <p className={styles.description}>{description}</p>
-        <ul className={styles.skills}>
-          {skills.map((skill, id) => {
-            return (
-              <li key={id} className={styles.skill}>
-                {skill}
-              </li>
-            );
-          })}
-        </ul>
-        <div className={styles.links}>
-          <a href={source} className={styles.link}>
-            code <img />
-          </a>
-          <a href={demo} className={styles.link}>
-            Live Demo
-            <img />
-          </a>
+      <div className={styles.content}>
+        <h3 className={styles.title}>
+          {title} <img />
+        </h3>
+        <div className={styles.contentBody}>
+          <body>
+            <p className={styles.description}>{description}</p>
+            <ul className={styles.skills}>
+              {skills.map((skill, id) => {
+                return (
+                  <li key={id} className={styles.skill}>
+                    {skill}
+                  </li>
+                );
+              })}
+            </ul>
+          </body>
+          <footer>
+            <div className={styles.links}>
+              <a href={source} className={styles.link}>
+                Code
+                <img
+                  className={styles.footerImage}
+                  src={getImageUrl("image/project/github.png")}
+                />
+              </a>
+              <a href={demo} className={styles.link}>
+                Demo
+                <img
+                  className={styles.footerImage}
+                  src={getImageUrl("image/project/externalLink.png")}
+                />
+              </a>
+            </div>
+          </footer>
         </div>
       </div>
     </div>

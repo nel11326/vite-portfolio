@@ -62,8 +62,12 @@
 
 .footer {
   display: flex;
-  justify-content: space-between;
-  width: 30%;
+  justify-content: start;
+  width: 100%;
+}
+
+.footer a {
+  margin-right: 10px;
 }
 
 .websiteLink {
