@@ -21,20 +21,20 @@ function Hero() {
             in Bontoc, Mountain Province, Philippines. <img />
           </p>
           <footer className={styles.footer}>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/ronel-tayawa/">
               <img
                 className={styles.websiteLink}
                 src={getImageUrl("image/hero/linkedin.png")}
                 alt="linkedin"
               />
             </a>
-            <a href="#">
+            <a href="https://www.github.com/nel11326">
               <img
                 className={styles.websiteLink}
                 src={getImageUrl("image/hero/github.png")}
               />
             </a>
-            <a href="#">
+            <a href="https://www.facebook.com/lenort/">
               <img
                 className={styles.websiteLink}
                 src={getImageUrl("image/hero/facebook.png")}

@@ -1,26 +1,34 @@
 [
-    {
-      "title": "Project A",
-      "imageSrc": "image/project/gentrixV1.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
-    }
-  ]
+  {
+    "title": "Gentrix V1",
+    "imageSrc": "image/project/gentrixV1.png",
+    "description": "This application was successfully migrated from a legacy Magic-based system to a modern web-based platform utilizing the latest programming languages and frameworks.",
+    "skills": ["React", "TypeScript", "Tailwind", "Express", "Node"],
+    "demo": "https://gentrix.hhrgconnect.com/",
+    "source": "private"
+  },
+  {
+    "title": "Gentrix V2",
+    "imageSrc": "image/project/gentrixv2.png",
+    "description": "Gentrix version 2. The new platform offers a more user-friendly and contact based approach",
+    "skills": ["Angular", "Express", "Node", "TypeScript", "Jest", "Swagger Docs", "JSDocs"],
+    "demo": "https://gentrixv2.hhrgconnect.com/",
+    "source": "private"
+  },
+  {
+    "title": "Meals app",
+    "imageSrc": "image/project/receipt-app.jpg",
+    "description": "To test the app, Click Demo, scan the barcode and install it on your Android device.",
+    "skills": ["React Native", "Expo"],
+    "demo": "image/project/meals-app.png",
+    "source": "https://github.com/nel11326/react-native-meals-app"
+  },
+  {
+    "title": "ECommerce",
+    "imageSrc": "projects/project.png",
+    "description": "During my bootcamp at Zuit, I completed an Ecommerce capstone project that served as a significant milestone in my journey to becoming a proficient web developer. This project was meticulously crafted using the latest programming languages and technologies, ensuring that it aligned with current industry standards. The goal of the project was to design and implement a fully functional Ecommerce platform that could handle real-world transactions and offer a seamless shopping experience for users.",
+    "skills": ["React", "Express", "Node"],
+    "demo": "https://www.example.com",
+    "source": "https://www.example.com"
+  }
+]
