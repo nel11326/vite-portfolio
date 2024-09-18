@@ -35,21 +35,19 @@ export const ProjectCard = ({
       <div className={styles.imageContainer}>
         <img
           src={getImageUrl(imageSrc)}
-          alt={`Image of ${title}`}
+          alt="Home Page Screenshot"
           className={styles.image}
         />
       </div>
       <div className={styles.content}>
-        <h3 className={styles.title}>
-          {title} <img />
-        </h3>
+        <h3 className={styles.title}>{title}</h3>
         <div className={styles.contentBody}>
           <body>
             <p className={styles.description}>{description}</p>
             <ul className={styles.skills}>
-              {skills.map((skill, id) => {
+              {skills.map((skill) => {
                 return (
-                  <li key={id} className={styles.skill}>
+                  <li key={skill} className={styles.skill}>
                     {skill}
                   </li>
                 );
@@ -64,17 +62,19 @@ export const ProjectCard = ({
                 className={styles.link}
                 onClick={sourceClickHandler}
               >
-                Code
+                Code{" "}
                 <img
                   className={styles.footerImage}
                   src={getImageUrl("image/project/github.png")}
+                  alt="github"
                 />
               </a>
               <a href={demo} className={styles.link} onClick={demoClickHandler}>
-                Demo
+                Demo{" "}
                 <img
                   className={styles.footerImage}
                   src={getImageUrl("image/project/externalLink.png")}
+                  alt="externalLink"
                 />
               </a>
             </div>
