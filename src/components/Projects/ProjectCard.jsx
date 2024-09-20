@@ -48,13 +48,17 @@ export const ProjectCard = ({
               {skills.map((skill) => {
                 return (
                   <li key={skill} className={styles.skill}>
-                    {skill}
+                    <img
+                      src={getImageUrl(skill)}
+                      alt="techSkill"
+                      className={styles.skillImage}
+                    />
                   </li>
                 );
               })}
             </ul>
           </body>
-          <footer>
+          <footer className={styles.footer}>
             <div className={styles.links}>
               <a
                 href={source !== "private" ? source : "#"}

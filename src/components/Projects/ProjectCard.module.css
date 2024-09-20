@@ -16,6 +16,7 @@
   transition: 0.4s;
   min-height: 450px;
   min-width: 300px;
+  max-width: 1200px;
 }
 
 .container:hover {
@@ -88,6 +89,11 @@
   padding: 2px 22px;
 }
 
+.skillImage {
+  width: 35px;
+  height: 35px;
+}
+
 .links {
   display: flex;
   justify-content: center;
@@ -140,3 +146,5 @@
     height: 20px;
   }
 }
+
+

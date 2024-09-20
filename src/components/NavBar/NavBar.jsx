@@ -15,7 +15,11 @@ function NavBar() {
   return (
     <nav className={styles.navbar}>
       <a href="/" className={styles.title}>
-        Nel.dev
+        <img
+          src={getImageUrl("image/nav/logo.png")}
+          alt="logo"
+          className={styles.logoImage}
+        />
       </a>
       <div className={styles.menu}>
         <img

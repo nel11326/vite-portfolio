@@ -3,7 +3,7 @@
     "title": "Gentrix V1",
     "imageSrc": "image/project/gentrixV1.png",
     "description": "This application was successfully migrated from a legacy Magic-based system to a modern web-based platform utilizing the latest programming languages and frameworks.",
-    "skills": ["React", "TypeScript", "Tailwind", "Express", "Node"],
+    "skills": ["image/hero/react.png", "image/hero/typescript.png", "image/hero/tailwind.png", "image/hero/express.png", "image/hero/nodejs.png"],
     "demo": "https://gentrix.hhrgconnect.com/",
     "source": "private"
   },
@@ -12,13 +12,12 @@
     "imageSrc": "image/project/gentrixv2.png",
     "description": "Gentrix version 2. The new platform offers a more user-friendly and contact based approach",
     "skills": [
-      "Angular",
-      "Express",
-      "Node",
-      "TypeScript",
-      "Jest",
-      "Swagger Docs",
-      "JSDocs"
+      "image/hero/angular.png",
+      "image/hero/express.png",
+      "image/hero/nodejs.png",
+      "image/hero/typescript.png",
+      "image/hero/jest.png",
+      "image/hero/swagger.png"
     ],
     "demo": "https://gentrixv2.hhrgconnect.com/",
     "source": "private"
@@ -27,7 +26,7 @@
     "title": "Meals app",
     "imageSrc": "image/project/receipt-app.jpg",
     "description": "To test the app, Click Demo, scan the barcode and install it on your Android device.",
-    "skills": ["React Native", "Expo"],
+    "skills": ["image/hero/reactNative.png", "image/hero/expo-go-app.png"],
     "demo": "image/project/meals-app.png",
     "source": "https://github.com/nel11326/react-native-meals-app"
   },
@@ -35,7 +34,7 @@
     "title": "Quiz App",
     "imageSrc": "image/project/quiz-app.png",
     "description": "Developed a quiz app to reinforce React fundamentals, focusing on component structure, state management, and props. Implemented conditional rendering, event handling, timers, and scoring logic.",
-    "skills": ["React"],
+    "skills": ["image/hero/react.png"],
     "demo": "https://react-quiz-app-sooty-sigma.vercel.app/",
     "source": "https://github.com/nel11326/quiz-app"
   }
