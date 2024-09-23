@@ -3,7 +3,7 @@
     "title": "Gentrix V1",
     "imageSrc": "image/project/gentrixV1.png",
     "description": "This application was successfully migrated from a legacy Magic-based system to a modern web-based platform utilizing the latest programming languages and frameworks.",
-    "skills": ["image/hero/react.png", "image/hero/typescript.png", "image/hero/tailwind.png", "image/hero/express.png", "image/hero/nodejs.png"],
+    "skills": ["image/hero/react.png", "image/hero/typescript.png", "image/hero/tailwind.png", "image/hero/express.png", "image/hero/nodejs.png", "image/hero/sql.png"],
     "demo": "https://gentrix.hhrgconnect.com/",
     "source": "private"
   },
@@ -15,6 +15,7 @@
       "image/hero/angular.png",
       "image/hero/express.png",
       "image/hero/nodejs.png",
+      "image/hero/sql.png",
       "image/hero/typescript.png",
       "image/hero/jest.png",
       "image/hero/swagger.png"

@@ -24,7 +24,7 @@
   font-size: 46px;
   font-weight: 900;
   margin-bottom: 33px;
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
 }
 
 .wavingHand {
@@ -34,7 +34,7 @@
 
 .description {
   font-size: 18px;
-  font-family: var(--font-roboto);
+  /* font-family: var(--font-roboto); */
   margin-bottom: 20px;
 }
 
